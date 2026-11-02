@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Kurssin omat ja muut mahdollisesti duplikaatteina
+__pycache__/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+output.xml
+log.html
+report.html
+browser/
+playwright-log.txt
