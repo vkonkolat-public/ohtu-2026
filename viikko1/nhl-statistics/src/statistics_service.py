@@ -2,10 +2,7 @@ from player_reader import PlayerReader
 
 
 class StatisticsService:
-    def __init__(self, player_reader=None):
-        if player_reader is None:
-            player_reader = PlayerReader()
-
+    def __init__(self, player_reader):
         self._players = player_reader.get_players()
 
     def search(self, name):
