@@ -15,4 +15,4 @@ class Player:
     
 
     def __str__(self):
-        return self.name
+        return f"{self.name:20}"
